@@ -1,8 +1,8 @@
 # Project status: Cambridge Collective
-Last updated: 2026-10-20 13:40 UTC
+Last updated: 2026-10-20 14:30 UTC
 
 ## Current phase
-Phase 2: Build, step 12 complete. All twelve CLAUDE.md tasks done. Site is ready for owner content.
+Phase 2: Build, step 12 complete. All twelve CLAUDE.md tasks done. Questionnaire for Louisa sent (docs/Louisa-website-questions.docx). Waiting for her answers.
 
 ## Site brief
 - Site name and domain: Cambridge Collective. No custom domain yet. Site address for now: https://sportshealing.github.io/Cambridge-Collective-/ (to be moved to the tutor's own GitHub account once finished).
@@ -54,9 +54,10 @@ Phase 2: Build, step 12 complete. All twelve CLAUDE.md tasks done. Site is ready
 - sitemap.xml, robots.txt : real GitHub Pages URL : complete (update after repo transfer)
 - docs/DESIGN.md, docs/CONTENT.md, docs/TASKS.md : design classes, confirmed facts, task tracker : complete
 - docs/reference/original-design.pdf : Canva first draft : complete
+- docs/Louisa-website-questions.docx : 14-page Word questionnaire for Louisa, 10 sections, 16 PRIORITY questions, tick boxes and answer boxes : complete
 
 ## Next step
-Wait for the owner to supply the launch to-do items below. When any arrive, replace the matching [brackets] in the HTML files, re-run the checks (no em dashes, no sentence over 20 words, no broken links, layout at 360, 768 and 1440), commit and push. Do not remove the DRAFT markers on the policy pages until the owner confirms a solicitor has reviewed them.
+Wait for Louisa to return docs/Louisa-website-questions.docx. When it arrives, read it (pandoc -t markdown), then work through it section by section. When any arrive, replace the matching [brackets] in the HTML files, re-run the checks (no em dashes, no sentence over 20 words, no broken links, layout at 360, 768 and 1440), commit and push. Do not remove the DRAFT markers on the policy pages until the owner confirms a solicitor has reviewed them.
 
 ## Handover notes
 - Branches: main and claude/determined-cannon-q893m4 on github.com/SportsHealing/Cambridge-Collective- hold the same commits (pushed to main on 2026-10-20). GitHub Pages must be switched on in Settings > Pages, source main, root. Keep both branches in step after each change.
@@ -64,6 +65,8 @@ Wait for the owner to supply the launch to-do items below. When any arrive, repl
 - Checks run on 2026-10-20: no em dashes; no banned words; every sentence 20 words or fewer except the required non-affiliation line; one h1 per page; all internal links and anchors resolve; no horizontal scroll at 360, 768 or 1440 on any page; body text 17px; every button at least 48px tall; skip link, menu button and Escape all work by keyboard; all text colour pairs pass 4.5:1.
 - Lighthouse was not run (not available in this environment). The site has no images, no frameworks and no tracking, so scores should be high. Run it after deploying.
 - Header, nav and footer are repeated in all five HTML files. Change all five when editing them.
+- The questionnaire numbers questions by section (1.1 to 10.4). Its PRIORITY questions map to the launch to-do list below. Its question numbers are the easiest way to refer to answers.
+- The questionnaire also asks about items not yet on the site: exam boards, 11+ exams, other services, safeguarding training, ICO registration, social links, Google Business Profile, domain and testimonials with permission. Only add these once Louisa confirms them.
 
 ### Launch to-do list (items still needed from the owner)
 - [ ] Booking link (Calendly, Cal.com or similar). Then replace `mailto:louisagrinyer7@gmail.com?subject=Free%20consultation...` on every "Book a free consultation" button in all five pages.
