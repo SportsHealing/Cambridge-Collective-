@@ -1,29 +1,32 @@
 # Cambridge Collective website
 
-A static site (plain HTML/CSS, no build step) ready for GitHub Pages.
+A static site (plain HTML, CSS and a little JavaScript, no build step) for GitHub Pages.
 
-## 1. Fill in the placeholders
-Search every file for these and replace them:
-- `BOOKING_LINK_HERE`: your booking page (Calendly, Google Calendar booking, etc.) or `mailto:you@example.com`
-- `EMAIL_HERE`: your email address
-- Anything in `[square brackets]`: prices, year groups, time zones, location, year
-- Delete anything in brackets you can't back up (DBS check, coaching claims, stats)
-- `privacy.html` and `safeguarding.html` are drafts: write the real policies before launch
+## Pages
+- `index.html`: home
+- `about.html`: the tutor
+- `schools.html`: offer for schools
+- `privacy.html` and `safeguarding.html`: policies, marked as drafts until reviewed
+- `assets/styles.css`: shared styles and colour tokens
+- `assets/js/main.js`: mobile menu
+- `sitemap.xml`, `robots.txt`, `.nojekyll`
 
-## 2. Add your own photos
-Create an `images/` folder, add `hero.jpg` and `louisa.jpg`, then swap the two `<div class="ph">` boxes in `index.html` for the `<img>` lines shown in the comments above them. Add descriptive `alt` text and keep each photo under ~500 KB.
+## Contact method
+Every "Book a free consultation" button opens an email to `louisagrinyer7@gmail.com` with a set subject line. When a booking tool exists (Calendly, Cal.com or similar), search all five HTML files for `mailto:louisagrinyer7@gmail.com?subject=Free%20consultation` and replace that address with the booking link. Keep the plain email link in the footer as a fallback. The site has no forms and stores no data.
 
-## 3. Publish on GitHub Pages
-1. Create a free GitHub account and a new **public** repository (e.g. `cambridge-collective`).
-2. Upload all files in this folder (including `.nojekyll`) via **Add file → Upload files**, then commit.
-3. Go to **Settings → Pages**. Under *Build and deployment*, set Source to **Deploy from a branch**, choose `main` and `/ (root)`, and save.
-4. After a minute or two your site is live at `https://YOUR-USERNAME.github.io/cambridge-collective/`.
+## Before launch
+1. Search every file for `[` and fill in or remove the bracketed facts.
+2. Add two photos to `assets/img/` (WebP or optimised JPEG, under 200 KB each). Swap the `<div class="ph">` boxes in `index.html` and `about.html` for the `<img>` lines in the comments above them. Set `width`, `height` and real `alt` text.
+3. Have the owner and a solicitor review `privacy.html` and `safeguarding.html`, then remove the draft notices.
+4. Move the repo to the tutor's GitHub account. Then update the site address in every `<link rel="canonical">`, every `og:url`, the JSON-LD block in `index.html`, `sitemap.xml` and `robots.txt`.
+5. Check every link on a phone and a desktop. Confirm the non-affiliation line is in every footer.
 
-## 4. Custom domain (recommended for outreach emails)
-Buy a domain, then in **Settings → Pages → Custom domain** enter it, and add the DNS records GitHub lists at your registrar. Tick **Enforce HTTPS** once available.
+## Publish on GitHub Pages
+1. The repo must be public. Use the `main` branch.
+2. Settings > Pages > Source: Deploy from a branch > `main` > `/ (root)`.
+3. Keep `.nojekyll` in the root.
+4. Wait one or two minutes, then open the live URL.
+5. Custom domain, later: Settings > Pages > Custom domain, add the DNS records GitHub lists, tick Enforce HTTPS. A `CNAME` file is then added to the root.
 
-## Before sharing the link
-Test every button on desktop and phone, proofread, and check the footer's non-affiliation line is still there.
-
-## Project structure
-See `CLAUDE.md` for the full brief and `docs/` for design, content and task notes. To continue the build, open this folder in Claude Code and ask it to read `CLAUDE.md` first.
+## Project notes
+`CLAUDE.md` holds the brief and rules. `STATUS.md` holds the current state, decisions and the launch to-do list. `docs/` holds design, content and task notes.
