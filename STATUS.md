@@ -1,5 +1,5 @@
 # Project status: Cambridge Collective
-Last updated: 2026-10-20 13:25 UTC
+Last updated: 2026-10-20 13:40 UTC
 
 ## Current phase
 Phase 2: Build, step 12 complete. All twelve CLAUDE.md tasks done. Site is ready for owner content.
@@ -59,7 +59,7 @@ Phase 2: Build, step 12 complete. All twelve CLAUDE.md tasks done. Site is ready
 Wait for the owner to supply the launch to-do items below. When any arrive, replace the matching [brackets] in the HTML files, re-run the checks (no em dashes, no sentence over 20 words, no broken links, layout at 360, 768 and 1440), commit and push. Do not remove the DRAFT markers on the policy pages until the owner confirms a solicitor has reviewed them.
 
 ## Handover notes
-- Branch: claude/determined-cannon-q893m4 on github.com/SportsHealing/Cambridge-Collective-. Merge to main to publish on GitHub Pages.
+- Branches: main and claude/determined-cannon-q893m4 on github.com/SportsHealing/Cambridge-Collective- hold the same commits (pushed to main on 2026-10-20). GitHub Pages must be switched on in Settings > Pages, source main, root. Keep both branches in step after each change.
 - The person giving answers in this chat is the site builder, not the tutor. The tutor is Louisa Grinyer.
 - Checks run on 2026-10-20: no em dashes; no banned words; every sentence 20 words or fewer except the required non-affiliation line; one h1 per page; all internal links and anchors resolve; no horizontal scroll at 360, 768 or 1440 on any page; body text 17px; every button at least 48px tall; skip link, menu button and Escape all work by keyboard; all text colour pairs pass 4.5:1.
 - Lighthouse was not run (not available in this environment). The site has no images, no frameworks and no tracking, so scores should be high. Run it after deploying.
