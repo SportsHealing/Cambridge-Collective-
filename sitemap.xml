@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://YOUR-USERNAME.github.io/REPO-NAME/</loc></url><url><loc>https://YOUR-USERNAME.github.io/REPO-NAME/about.html</loc></url><url><loc>https://YOUR-USERNAME.github.io/REPO-NAME/schools.html</loc></url><url><loc>https://YOUR-USERNAME.github.io/REPO-NAME/privacy.html</loc></url><url><loc>https://YOUR-USERNAME.github.io/REPO-NAME/safeguarding.html</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sportshealing.github.io/Cambridge-Collective-/</loc></url>
+  <url><loc>https://sportshealing.github.io/Cambridge-Collective-/about.html</loc></url>
+  <url><loc>https://sportshealing.github.io/Cambridge-Collective-/schools.html</loc></url>
+  <url><loc>https://sportshealing.github.io/Cambridge-Collective-/privacy.html</loc></url>
+  <url><loc>https://sportshealing.github.io/Cambridge-Collective-/safeguarding.html</loc></url>
+</urlset>
