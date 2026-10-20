@@ -1,9 +1,9 @@
 # Design reference
 
-Original design: `docs/reference/original-design.pdf` (first draft made in Canva). The live code in `index.html` and `assets/styles.css` is now the source of truth.
+Original design: `docs/reference/original-design.pdf` (first draft made in Canva). The live code in the HTML files and `assets/styles.css` is the source of truth.
 
 ## Tokens (CSS variables in `assets/styles.css`)
-`--navy #12203F`, `--navy2 #1D2F55`, `--gold #C9A55C`, `--gold-d #8A6A2B` (small gold text on light), `--cream #F4EEE2`, `--beige #EDE4D3`.
+`--navy #12203F`, `--navy2 #1D2F55`, `--gold #C9A55C`, `--gold-d #7A5E25` (small gold text on light; the brief's #8A6A2B gives 4.35:1 on cream, below AA), `--cream #F4EEE2`, `--beige #EDE4D3`.
 
 ## Type
 Headings: Cormorant Garamond 500/600. Body: Inter 400/500/600. Hero h1 clamp(40px, 6vw, 60px). Section h2 clamp(32px, 4vw, 42px).
@@ -27,3 +27,14 @@ Header, hero, stats, services, founder, why families choose us, how it works, on
 
 ## Rules
 Calm, academic, warm. No gradients, no stock clichés, no animation beyond hover. Min body size 17px on mobile. Buttons at least 48px tall. Text contrast 4.5:1.
+
+## Classes added in the build
+- `.tight`: section with no top padding.
+- `.lead`, `.intro`, `.measure`, `.list`: text sizes and widths, no inline styles.
+- `.cta`: centred final call-to-action band.
+- `.review`: gold-edged note marking copy the owner must review.
+- `.notice`: draft banner on policy pages.
+- `.policy`: smaller h2 and narrow text for policy pages.
+- `.enquire`: bordered enquiry block on schools.html (replaces `.partner`).
+- `.btn-alt`: navy button for use on light bands if needed.
+- `.nav a[aria-current="page"]`: underlined current page link.
