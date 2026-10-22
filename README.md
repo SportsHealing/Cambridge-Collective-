@@ -12,7 +12,7 @@ A static site (plain HTML, CSS and a little JavaScript, no build step) for GitHu
 - `sitemap.xml`, `robots.txt`, `.nojekyll`
 
 ## Contact method
-Every "Book a free consultation" button opens an email to `louisagrinyer7@gmail.com` with a set subject line. When a booking tool exists (Calendly, Cal.com or similar), search all five HTML files for `mailto:louisagrinyer7@gmail.com?subject=Free%20consultation` and replace that address with the booking link. Keep the plain email link in the footer as a fallback. The site has no forms and stores no data.
+Every "Book a free consultation" button opens Louisa's Calendly page: `https://calendly.com/louisa-cambridgecollective/30min`. Email links use `louisagrinyer7@gmail.com`. When `louisa@cambridgecollective.co.uk` is confirmed working, replace the Gmail address in all five HTML files and in the JSON-LD block in `index.html`. The site has no forms and stores no data.
 
 ## Before launch
 1. Search every file for `[` and fill in or remove the bracketed facts.

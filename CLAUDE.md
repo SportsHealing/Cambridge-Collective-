@@ -14,7 +14,7 @@ Read this file fully before you change anything.
 - Other services: 1:1 tuition at 11+, GCSE and A Level, and small reading groups
 - Delivery: online, worldwide. Students mainly in the UK and the Middle East
 - Experience: five years helping students with Oxbridge applications
-- Current team: one tutor. Do not write "our team" or "our tutors"
+- Team wording: the site refers to "tutors" in the plural (owner decision, 22 October 2026), as the business is built to take on more tutors. Keep it plural, except on pages about Louisa herself. Every tutor must be Oxbridge-educated and hold an enhanced DBS check, because the site says so.
 
 ## 2. Audiences
 
@@ -36,7 +36,7 @@ The business is new. There are no testimonials yet.
 - Never invent testimonials, reviews, ratings, logos, results or statistics.
 - Never claim "trusted by", "award-winning" or "leading".
 - Only use a number if the owner can prove it. Use [square brackets] for anything unconfirmed.
-- Do not mention a DBS check, insurance or professional coaches unless the owner confirms them.
+- Enhanced DBS check: confirmed. Do not mention insurance or professional coaches unless the owner confirms them.
 - Keep the non-affiliation line in the footer of every page: "Cambridge Collective is an independent tutoring service and is not affiliated with, or endorsed by, the University of Cambridge, the University of Oxford, or any of their colleges."
 - Do not use college crests, university logos or photos the owner has no right to use. Use the owner's own photos.
 - Where proof is missing, use true alternatives: credentials, method, a "Founding students" offer, a "Founding school partners" offer.
