@@ -1,5 +1,5 @@
 # Project status: Cambridge Collective
-Last updated: 2026-10-22 16:54 UTC
+Last updated: 2026-10-22 16:57 UTC
 
 ## Current phase
 Phase 2: Build, step 12 complete. Owner decisions of 22 October applied and deployed. Update pack with 13 questions sent to Louisa. Waiting for her answers.
@@ -73,6 +73,7 @@ When Louisa returns the update pack, read it with pandoc, apply each answer acro
 
 ## Handover notes
 - Branches main and claude/determined-cannon-q893m4 hold the same commits. Push to both after each change.
+- GitHub Pages is enabled and deploys from main. Verified 22 October 2026: the "pages build and deployment" run for commit 7bb2658 succeeded. All 47 edits from Louisa's first answers are live. To check a deploy, list workflow runs in GitHub Actions.
 - The person in this chat is the site builder, not Louisa.
 - Louisa's completed questionnaire is not in the repo; it holds her prices. The facts from it are in docs/CONTENT.md.
 - To swap the email later, replace louisagrinyer7@gmail.com in all five HTML files and the JSON-LD block in index.html.
