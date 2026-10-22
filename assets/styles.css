@@ -137,6 +137,8 @@ header.dark {
 .two .pad { padding-top: 28px; }
 .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
 .cta { text-align: center; padding-top: 88px; padding-bottom: 88px; }
+.teach { grid-template-columns: 3fr 2fr; align-items: start; }
+.also { margin: 32px 0 0; max-width: 760px; }
 .cta p { font-size: 18px; margin: 0 0 32px; }
 
 /* Components */
@@ -152,7 +154,7 @@ header.dark {
   padding: 24px;
   color: #E8D9B5;
 }
-.hero img, .founder img {
+.hero img, .founder img, .two img {
   width: 100%;
   height: auto;
   border-radius: 6px;
@@ -212,7 +214,8 @@ footer .logo { color: #fff; display: block; margin-bottom: 8px; }
 /* Mobile */
 @media (max-width: 800px) {
   section, header, footer { padding-top: 56px; padding-bottom: 56px; }
-  .hero, .founder, .two { grid-template-columns: 1fr; gap: 32px; }
+  .hero, .founder, .two, .teach { grid-template-columns: 1fr; gap: 32px; }
+  .founder img { max-width: 320px; }
   .two .pad { padding-top: 0; }
   .hero h1 { font-size: clamp(36px, 9vw, 48px); }
   .menu-btn { display: block; }
