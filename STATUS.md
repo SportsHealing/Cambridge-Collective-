@@ -37,13 +37,10 @@ Phase 2: Build, step 12 complete. Louisa's update pack (returned 26 October 2026
 - Where Louisa gave two versions of an edit, the later "Necessary site edits" version was used : it was written last.
 - Typo fixed in her lessons sentence ("tailored to the student's") : obvious missing word.
 - Remaining "I" in the About teaching list changed to "we" : matches "How we teach" and the plural decision.
+- 26 October 2026 defaults accepted: explained services list removed from About (her plain list stays), hours read "UK time (GMT/BST)", safeguarding adds "contacts the local emergency services", tuition card adds a Subjects line : user approved defaults.
 
 ## Open questions
-- Q1 About page list: her "We can help you with" list sits above the existing explained list, so three items appear twice. Default: keep both as she wrote. Alternative: drop the explained list.
-- Q2 GMT: correct now, but UK clocks move to BST on 28 March 2027. Default: "UK time (GMT/BST)". Live now: "GMT".
-- Q3 Safeguarding emergency step: police sentence removed as asked. Suggested: "If a child is in immediate danger, the tutor contacts the local emergency services." Default: add it.
-- Q4 Tuition card subjects: she teaches English, History, Geography, Politics and Philosophy, but the card now names no subjects. Default: add a "Subjects:" line.
-- Q5 Domain and transfer: Louisa owns cambridgecollective.co.uk. Default: transfer the repo to GitHub user louisagrinyer, then point cambridgecollective.co.uk at the site (CNAME file plus DNS at her registrar), then update canonical, og:url, JSON-LD, sitemap and robots.
+- Repo transfer to GitHub user louisagrinyer and custom domain cambridgecollective.co.uk: agreed, to be done in due course by the repo owner. After it, update every site URL and add a CNAME file.
 
 ## Files
 - STATUS.md : this file : complete
