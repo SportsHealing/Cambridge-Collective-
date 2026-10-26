@@ -1,8 +1,8 @@
 # Project status: Cambridge Collective
-Last updated: 2026-10-26 15:05 UTC
+Last updated: 2026-10-26 17:27 UTC
 
 ## Current phase
-Phase 2: Build, step 12 complete. Louisa's update pack (returned 26 October 2026) applied and deployed. Five follow-up questions sent to the user.
+Phase 2: Build, step 12 complete. UI/UX audit done on 26 October 2026. Improvement list sent to the user for approval. Final questions pack (12 questions) sent for Louisa.
 
 ## Site brief
 - Site name and domain: Cambridge Collective. No custom domain confirmed. Site address for now: https://sportshealing.github.io/Cambridge-Collective-/ (to move to the tutor's own GitHub account once finished).
@@ -40,7 +40,24 @@ Phase 2: Build, step 12 complete. Louisa's update pack (returned 26 October 2026
 - 26 October 2026 defaults accepted: explained services list removed from About (her plain list stays), hours read "UK time (GMT/BST)", safeguarding adds "contacts the local emergency services", tuition card adds a Subjects line : user approved defaults.
 
 ## Open questions
-- Repo transfer to GitHub user louisagrinyer and custom domain cambridgecollective.co.uk: agreed, to be done in due course by the repo owner. After it, update every site URL and add a CNAME file.
+- Which audit improvements to action (list below). Default: all items marked "no input needed".
+- Louisa's final questions pack (Word file, scratchpad only, not in repo), questions 3.1 to 3.12: Calendly link rename (PRIORITY), Calendly intake questions, link-preview photo (PRIORITY), favicon or logo, "Cambridge Collective" vs "the Cambridge Collective", sentence case in her lists, swap "1:1" stat for "Enhanced DBS checked", hero heading to name the offer, acting training in "Interview confidence", one-page schools PDF, contact form, one-working-day reply promise.
+- Repo transfer to GitHub user louisagrinyer and custom domain cambridgecollective.co.uk: agreed, to be done in due course by the repo owner.
+
+### UI/UX audit, 26 October 2026
+Lighthouse 12.6 run locally (Google Fonts blocked in the sandbox). Mobile: performance 88 to 92, accessibility 100 (Schools 98), best practices 96, SEO 100. Desktop: performance 99 to 100, others as mobile.
+No input needed:
+1. Mobile header: logo and Menu wrap onto two rows; booking button hidden in the menu. Fit on one row and show a compact booking button.
+2. Mobile home has about 7,000px between the hero button and the final button. Add a sticky booking bar on phones, or buttons after Services and How it works.
+3. About and Schools show no button before scrolling on phones. Add a button under each intro; put the Schools email button under the intro.
+4. Tuition card has four paragraphs; turn subjects, 11+ and exam boards into a compact list.
+5. Titles, descriptions and JSON-LD still say "English and History" only. Update for all subjects.
+6. Add a custom 404.html with links and a booking button.
+7. FAQ sits in a narrow left column on desktop. Use two columns or centre it.
+8. Self-host the two fonts: removes render-blocking Google request (about 0.85s on mobile) and the Google Fonts line in the privacy policy.
+9. Serve a smaller hero image to phones (srcset). Mobile LCP is 3.0s.
+10. Schools page heading order: cards are h3 directly under h1. Add an h2.
+Needs Louisa (in her pack): og:image for link previews, favicon, Calendly link, hero heading, stats row, naming and capitals, larger portrait.
 
 ## Files
 - STATUS.md : this file : complete
@@ -61,7 +78,7 @@ Phase 2: Build, step 12 complete. Louisa's update pack (returned 26 October 2026
 - docs/reference/original-design.pdf : Canva first draft : complete
 
 ## Next step
-Apply the user's answers to Q1 to Q5 above. For Q5, the repo transfer must be done by the repo owner in GitHub Settings; after it, update every site URL and add a CNAME file if the domain is used. Re-run the checks, update this file, commit, and push to both branches.
+Action the audit items the user approves (default: items 1 to 10 above), one commit each, re-running checks and Lighthouse. Then apply Louisa's answers to the final questions pack when returned. Push to both main and claude/determined-cannon-q893m4.
 
 ## Handover notes
 - Branches main and claude/determined-cannon-q893m4 hold the same commits. Push to both after each change.
