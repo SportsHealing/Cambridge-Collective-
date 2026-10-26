@@ -1,14 +1,14 @@
 # Project status: Cambridge Collective
-Last updated: 2026-10-22 16:57 UTC
+Last updated: 2026-10-26 15:05 UTC
 
 ## Current phase
-Phase 2: Build, step 12 complete. Owner decisions of 22 October applied and deployed. Update pack with 13 questions sent to Louisa. Waiting for her answers.
+Phase 2: Build, step 12 complete. Louisa's update pack (returned 26 October 2026) applied and deployed. Five follow-up questions sent to the user.
 
 ## Site brief
 - Site name and domain: Cambridge Collective. No custom domain confirmed. Site address for now: https://sportshealing.github.io/Cambridge-Collective-/ (to move to the tutor's own GitHub account once finished).
 - One-sentence purpose: Persuade parents, students and schools to book a free consultation for Oxbridge admissions support and subject tuition.
 - Audience (age range, needs, accessibility needs): Parents of students aged 7 to 18. Oxbridge applicants aged 15 and over, many international. Schools: heads of sixth form and Oxbridge coordinators. Mainly UK and Middle East. WCAG AA throughout.
-- Core features (what users can do): Book a free consultation (primary, opens Calendly). School enquiry by email (secondary). Read services, founder background, how it works, FAQ, policies. Mobile menu. No forms or data storage on the site.
+- Core features (what users can do): Book a free consultation (primary, opens Calendly). Email: louisa@cambridgecollective.co.uk. School enquiry by email (secondary). Read services, founder background, how it works, FAQ, policies. Mobile menu. No forms or data storage on the site.
 - Pages or sections: index.html, about.html, schools.html, privacy.html, safeguarding.html, sitemap.xml, robots.txt. Shared assets/styles.css, assets/js/main.js, assets/img (four WebP photos).
 - User journey (first visit to goal reached): Home, grasp the offer, scan services and credentials, click "Book a free consultation". Schools: Home > Schools > "Email about school visits".
 - Data collected and how it is used: None on the site. Email and Calendly collect contact details off-site. Privacy policy explains this.
@@ -33,22 +33,17 @@ Phase 2: Build, step 12 complete. Owner decisions of 22 October applied and depl
 - University destinations not shown : owner accepted default.
 - Louisa's prices removed from docs/CONTENT.md : the repo is public and she chose not to show prices. They remain in git history from commit 57c1972.
 - Update pack saved outside the repo (scratchpad) and sent to the user : the repo is public.
+- 26 October 2026, from the returned pack: email switched to louisa@cambridgecollective.co.uk on every page and in JSON-LD (test email confirmed). Oxbridge "Best for" now "students aged 15 or over looking for dedicated academic support". Tuition card drops "in humanities", says "fortifying knowledge", adds 11+ exam types. Founder line uses her wording. "UK time" changed to GMT. Essay marking line removed. About page uses her exact paragraph, "How we teach", her new lessons paragraph, her "We can help you with" list; essays and interview paragraphs removed. Schools workshop card and "Oxbridge applicants" wording. Safeguarding: photo and concern-reporting bullets, 18+ email, messaging rule, equal-treatment conduct line, police sentence removed, last updated 26 October 2026. DRAFT markers removed from both policies (reviewed by a trained solicitor) : owner instructions.
+- Where Louisa gave two versions of an edit, the later "Necessary site edits" version was used : it was written last.
+- Typo fixed in her lessons sentence ("tailored to the student's") : obvious missing word.
+- Remaining "I" in the About teaching list changed to "we" : matches "How we teach" and the plural decision.
 
 ## Open questions
-Sent to Louisa in the update pack of 22 October 2026 (Word file, not in the repo). Questions 4.1 to 4.13:
-- 4.1 PRIORITY Tuition year groups for 11+, GCSE, A Level and overall. Default: Years 4 to 13 (live now).
-- 4.2 Which subjects "humanities" covers. Default: keep "humanities".
-- 4.3 PRIORITY GitHub username for the transfer. No default.
-- 4.4 PRIORITY Is louisa@cambridgecollective.co.uk set up and tested? Default: keep Gmail.
-- 4.5 PRIORITY Free call 20 or 30 minutes (Calendly is 30, site says 20). Default: Louisa changes Calendly to 20.
-- 4.6 Name universities students went on to? Default: do not show.
-- 4.7 Other tutors now: names, university and college, subjects, DBS. Default: none shown.
-- 4.8 ICO data protection fee status. No site change.
-- 4.9 Solicitor name and review date. Then remove the hidden DRAFT comment in both policies.
-- 4.10 Show "25+ applicants supported"? Default: no.
-- 4.11 Name 11+ exams on the tuition card? Default: no.
-- 4.12 KS4 reading group texts. Optional.
-- 4.13 Any further page edits.
+- Q1 About page list: her "We can help you with" list sits above the existing explained list, so three items appear twice. Default: keep both as she wrote. Alternative: drop the explained list.
+- Q2 GMT: correct now, but UK clocks move to BST on 28 March 2027. Default: "UK time (GMT/BST)". Live now: "GMT".
+- Q3 Safeguarding emergency step: police sentence removed as asked. Suggested: "If a child is in immediate danger, the tutor contacts the local emergency services." Default: add it.
+- Q4 Tuition card subjects: she teaches English, History, Geography, Politics and Philosophy, but the card now names no subjects. Default: add a "Subjects:" line.
+- Q5 Domain and transfer: Louisa owns cambridgecollective.co.uk. Default: transfer the repo to GitHub user louisagrinyer, then point cambridgecollective.co.uk at the site (CNAME file plus DNS at her registrar), then update canonical, og:url, JSON-LD, sitemap and robots.
 
 ## Files
 - STATUS.md : this file : complete
@@ -57,8 +52,8 @@ Sent to Louisa in the update pack of 22 October 2026 (Word file, not in the repo
 - index.html : home, plural wording, Calendly buttons : complete (awaiting pack answers)
 - about.html : founder page with portrait and folio photo : complete
 - schools.html : schools page with river photo, all details filled : complete
-- privacy.html : owner edits plus short Who we are and Your rights : complete (awaiting solicitor)
-- safeguarding.html : owner edits plus short concern section : complete (awaiting solicitor)
+- privacy.html : UK GDPR policy, reviewed by solicitor : complete
+- safeguarding.html : safeguarding policy, reviewed by solicitor, 26 October edits added : complete
 - assets/styles.css : shared styles, now with .teach and .also : complete
 - assets/js/main.js : mobile menu : complete
 - assets/img/ : louisa-grinyer.webp, college-courtyard.webp, shakespeare-folio.webp, river-library.webp : complete
@@ -69,7 +64,7 @@ Sent to Louisa in the update pack of 22 October 2026 (Word file, not in the repo
 - docs/reference/original-design.pdf : Canva first draft : complete
 
 ## Next step
-When Louisa returns the update pack, read it with pandoc, apply each answer across all five pages, re-run the checks, update this file and docs/CONTENT.md, commit, and push to both main and claude/determined-cannon-q893m4. Do not store her prices or the pack in the repo.
+Apply the user's answers to Q1 to Q5 above. For Q5, the repo transfer must be done by the repo owner in GitHub Settings; after it, update every site URL and add a CNAME file if the domain is used. Re-run the checks, update this file, commit, and push to both branches.
 
 ## Handover notes
 - Branches main and claude/determined-cannon-q893m4 hold the same commits. Push to both after each change.
@@ -81,13 +76,12 @@ When Louisa returns the update pack, read it with pandoc, apply each answer acro
 - Lighthouse has not been run. Run it on the live site.
 
 ### Launch to-do list
-- [ ] Louisa's answers to the update pack (4.1 to 4.13).
-- [ ] Switch every Gmail address to louisa@cambridgecollective.co.uk once a test email arrives (all five HTML files and the JSON-LD block).
-- [ ] Calendly event length matches the site (20 minutes), or change the site to 30.
-- [ ] ICO data protection fee checked by Louisa.
-- [ ] Solicitor review of both policies, then remove the DRAFT comment at the top of each file.
+- [ ] Answers to Q1 to Q5 above.
+- [ ] Louisa sets the Calendly event to 20 minutes (she has agreed to).
+- [ ] Louisa deals with the ICO data protection fee (not yet done).
+- [ ] Louisa: larger original of the portrait, if available.
+- [ ] Louisa: KS4 reading group texts (she will supply later).
 - [ ] Every tutor who joins must be Oxbridge-educated and hold an enhanced DBS check, as the site states.
-- [ ] Larger original of the portrait, if available.
-- [ ] Transfer the repo to Louisa's GitHub account, enable Pages, update canonical, og:url, JSON-LD, sitemap and robots URLs.
-- [ ] Custom domain and CNAME, when bought.
+- [ ] Transfer the repo to GitHub user louisagrinyer, then update all site URLs.
+- [ ] Custom domain cambridgecollective.co.uk: CNAME file, DNS records, Enforce HTTPS.
 - [ ] Run Lighthouse on the live site and fix anything under 90.

@@ -9,11 +9,13 @@ Read this file fully before you change anything.
 - Name: Cambridge Collective
 - Tutor and founder: Louisa Grinyer
 - Credentials: English graduate, First-Class, Senior Scholar of Trinity College, Cambridge
-- Subjects: English and History
+- Subjects: English, History, Geography, Politics and Philosophy (confirmed 26 October 2026)
 - Speciality: Oxbridge applications (personal statements, admissions tests, mock interviews)
 - Other services: 1:1 tuition at 11+, GCSE and A Level, and small reading groups
 - Delivery: online, worldwide. Students mainly in the UK and the Middle East
-- Experience: five years helping students with Oxbridge applications
+- Experience: over five years helping students with Oxbridge applications
+- Contact: louisa@cambridgecollective.co.uk (confirmed working). Booking: Calendly, 20-minute free call.
+- Owner-supplied copy: where Louisa supplies exact wording, use it as written, even if it breaks section 5. Fix only obvious typos, and say so.
 - Team wording: the site refers to "tutors" in the plural (owner decision, 22 October 2026), as the business is built to take on more tutors. Keep it plural, except on pages about Louisa herself. Every tutor must be Oxbridge-educated and hold an enhanced DBS check, because the site says so.
 
 ## 2. Audiences
